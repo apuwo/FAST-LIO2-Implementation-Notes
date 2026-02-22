@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+Loaded 38671 stamps and poses from: ground_truth_tum.txt
+Loaded 1278 stamps and poses from: estimated_tum.txt
+--------------------------------------------------------------------------------
+Synchronizing trajectories...
+Found 867 of max. 1278 possible matching timestamps between...
+	ground_truth_tum.txt
+and:	estimated_tum.txt
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99821746  0.03938175 -0.04484385]
+ [-0.03662507  0.99748279  0.06071807]
+ [ 0.04712215 -0.05896743  0.9971471 ]]
+Translation of alignment:
+[ 0.38477419 -0.38341437  0.82236043]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 867 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.651735
+      mean	0.063921
+    median	0.057445
+       min	0.033017
+      rmse	0.069981
+       sse	4.246043
+       std	0.028487
+
