@@ -1,7 +1,10 @@
-#总体环境
+**总体环境：**
 本项目基于 Ubuntu 20.04 和 ROS Noetic 进行开发和测试.
-#安装依赖
+
+**安装依赖**
+```bash
 sudo apt-get install libglfw3-dev libglew-dev
+```
 
 #克隆marsim仓库
 mkdir -p ~/ catkin_ws/src
